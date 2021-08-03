@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1071897302257",
+    "firebase_url": "https://fashionapp-343f5-default-rtdb.firebaseio.com",
+    "project_id": "fashionapp-343f5",
+    "storage_bucket": "fashionapp-343f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071897302257:android:ad1e0b9891b6eb63b90550",
+        "android_client_info": {
+          "package_name": "com.longkhoa.adminfashtion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071897302257-t5m3d1qrtuo10i2hk35ocslph8ut4a5e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Nj21cPWffsn9eO36hG0JiCmDOGGp9rw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071897302257-t5m3d1qrtuo10i2hk35ocslph8ut4a5e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1071897302257-6nj5a35pdt6sl8ipr1hcm92otudmjboq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.asd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
