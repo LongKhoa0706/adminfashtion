@@ -11,5 +11,4 @@ class BaseViewModel extends ChangeNotifier{
     _state = viewState;
     notifyListeners();
   }
-
 }

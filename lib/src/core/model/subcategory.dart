@@ -1,40 +1,40 @@
-class Category {
-  Category({
+class SubCategory {
+  SubCategory({
     this.key,
     this.title,
-    this.urlImage,
     this.createAt,
+    this.keyCategoryId,
   });
 
   String? key;
   String? title;
-  String? urlImage;
   String? createAt;
+  String? keyCategoryId;
 
-  Category copyWith({
+  SubCategory copyWith({
     String? key,
     String? title,
-    String? urlImage,
     String? createAt,
+    String? keyCategoryId,
   }) =>
-      Category(
+      SubCategory(
         key: key ?? this.key,
         title: title ?? this.title,
-        urlImage: urlImage ?? this.urlImage,
         createAt: createAt ?? this.createAt,
+        keyCategoryId : keyCategoryId ?? this.keyCategoryId,
       );
 
-  factory Category.fromJson(Map<String, dynamic> json) => Category(
+  factory SubCategory.fromJson(Map<String, dynamic> json) => SubCategory(
     key: json["key"],
     title: json["title"],
-    urlImage: json["urlImage"],
     createAt: json["createAt"],
+    keyCategoryId: json['keyCategoryId'],
   );
 
   Map<String, dynamic> toJson() => {
     "key": key,
     "title": title,
-    "urlImage": urlImage,
     "createAt": createAt,
+    "keyCategoryId":keyCategoryId,
   };
 }

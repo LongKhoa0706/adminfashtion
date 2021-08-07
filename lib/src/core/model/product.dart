@@ -10,7 +10,7 @@ class Product {
   bool? isLike;
   List<String>? urlImage;
   String? category;
-  List<Inventory>? inventory;
+  List<Inventory>?inventory;
 
   Product(
       {this.id,
